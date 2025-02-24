@@ -80,7 +80,7 @@ function(
         name: appName,
       },
       spec: {
-        type: 'LoadBalancer',
+        type: 'ClusterIP',
         ports: [
           {
             port: 8080,
