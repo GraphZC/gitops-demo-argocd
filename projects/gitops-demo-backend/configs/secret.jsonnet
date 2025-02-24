@@ -17,11 +17,10 @@ local mapSecret(obj) =
 local getMapSecret(namespace) = mapSecret(
   {
     'app-prod': {
-      DB_USERNAME: {
-        secret: 'cnc-recruit-db-credentials',
-        key: 'username',
+      SECRET_PASSWORD: {
+        secret: 'demo-api-secret',
+        key: 'password',
       },
-
     },
   }[namespace]
 );
