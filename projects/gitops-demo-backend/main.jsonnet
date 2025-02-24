@@ -121,9 +121,7 @@ function(
                   backend: {
                     service: {
                       name: appName,
-                      port: {
-                        number: 'http',
-                      },
+                      port: 'http'
                     },
                   },
                 },
