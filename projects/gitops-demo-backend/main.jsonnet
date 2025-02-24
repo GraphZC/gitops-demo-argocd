@@ -1,4 +1,4 @@
-local constants = import '../constants/constants.json';
+local constants = import '../../constants/constants.json';
 local env = import 'configs/env.jsonnet';
 local secret = import 'configs/secret.jsonnet';
 local vars = import 'vars/vars.json';
