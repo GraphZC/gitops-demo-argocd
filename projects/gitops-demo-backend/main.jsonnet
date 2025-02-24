@@ -77,6 +77,7 @@ function(
       apiVersion: 'v1',
       kind: 'Service',
       metadata: {
+        namespace: namespace,
         name: appName,
       },
       spec: {
