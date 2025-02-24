@@ -83,7 +83,7 @@ function(
         type: 'LoadBalancer',
         ports: [
           {
-            port: 80,
+            port: 8080,
             targetPort: 8080,
           },
         ],
