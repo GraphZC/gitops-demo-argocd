@@ -83,6 +83,7 @@ function(
         type: 'ClusterIP',
         ports: [
           {
+            name: 'http',
             port: 8080,
             targetPort: 8080,
           },
@@ -121,7 +122,7 @@ function(
                     service: {
                       name: appName,
                       port: {
-                        number: 8080,
+                        number: 'http',
                       },
                     },
                   },
